@@ -24,7 +24,23 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | Languages | C++, Python |
 | Organization | Week-wise folders (`Week1`, `Week2`, ...) |
 | Purpose | Learning, interview preparation, progress tracking |
-| Status | 🚧 In progress — currently on Week 2 |
+| Status | 🚧 In progress — Week 1 done, Week 2 started |
+
+---
+
+## 📁 Repository Structure
+
+```
+DSA/
+├── .vscode/
+├── Week1/
+│   ├── Cpp Basics and Patterns/     # 40 programs
+│   └── Cpp STL/                     # 25 programs
+│       ├── STL_Part_2/              # containers
+│       └── STL_Part_3/              # problem solving with STL
+├── Week2/                           # 🚧 in progress
+└── README.md
+```
 
 ---
 
@@ -32,7 +48,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 
 | Language | Purpose | Used For |
 | -------- | ------- | -------- |
-| C++ | DSA implementation, STL practice | Basics, conditionals, switch case, STL |
+| C++ | DSA implementation, STL practice | Basics, conditionals, patterns, strings, arrays, STL |
 | Python | DSA implementation, problem solving | Patterns |
 
 ---
@@ -111,7 +127,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | Topic | Problem Types | Language Plan |
 | ----- | ------------- | ------------- |
 | 🧮 Basics & Patterns | Input/output, conditionals, loops, switch case, star and number patterns | C++ / Python |
-| 🧰 C++ STL | vector, pair, map, set, stack, queue, algorithms, iterators | C++ |
+| 🧰 C++ STL | vector, pair, map, set, stack, queue, deque, priority queue, algorithms | C++ |
 | 📈 Complexity | Comparing brute force vs optimized solutions | C++ / Python |
 | 📊 Arrays | Traversal, reverse, rotate, prefix sum, subarray problems | C++ / Python |
 | 🔤 Strings | Palindromes, anagrams, character frequency, substrings | C++ / Python |
@@ -134,38 +150,48 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 
 | Week | Focus | Status |
 | ---- | ----- | ------ |
-| Week 1 | Programming Basics, Conditionals, Patterns | ✅ Done |
-| Week 2 | C++ STL | ⏳ In progress |
+| Week 1 | Programming Basics, Patterns, C++ STL | ✅ Done |
+| Week 2 | Started — problems coming soon | ⏳ In progress |
 | Week 3 | Coming soon | ⬜ Upcoming |
 | Week 4 | Coming soon | ⬜ Upcoming |
 
-### ✅ Week 1 — Programming Basics
+### ✅ Week 1 — Programming Basics, Patterns & C++ STL
 
-| # | Problem | File | Language | Topic |
-| - | ------- | ---- | -------- | ----- |
-| 1 | Hello World | `Helloworld.cpp` | C++ | Basics |
-| 2 | Addition of Two Inputs | `Addition_of_two_inputs.cpp` | C++ | Basics |
-| 3 | Cricket Score | `Cricket_Score.cpp` | C++ | Conditional Logic |
-| 4 | Switch Case Month Names | `Switch_Case_Month_Names.cpp` | C++ | Switch Case |
-| 5 | Butterfly Pattern | `Butterfly_Pattern.py` | Python | Patterns |
-| 6 | Half Butterfly | `Half_Butterfly.py` | Python | Patterns |
-| 7 | Inverted Pyramid | `Inverted_Pyramid.py` | Python | Patterns |
+#### 🧮 Cpp Basics and Patterns (40 programs)
 
-### ⏳ Week 2 — C++ STL *(in progress)*
+| Topic | Programs | Language |
+| ----- | -------- | -------- |
+| Basics & I/O | `Helloworld`, `Addition_of_two_inputs`, `Arithmetic_Operations`, `Arithmetic_Operation_on_Two_Numbers`, `Multipllication_and_Division_of_Two_Float_Numbers`, `Divide_a_Large_Number_and_Print_with_Precision`, `Compute_Average` | C++ |
+| Conditionals & Switch | `Cricket_Score`, `Switch_Case_Month_Names` | C++ |
+| Loops | `Muliplication_Table_Generator` | C++ |
+| Strings | `Add_Character_to_String`, `String_Concatenation_Length`, `Count_the_Characters`, `Count_the_Vowels` | C++ |
+| Arrays & 2D Arrays | `Sum_of_the_Array`, `Middle_Element_Multiplier`, `Sum_of_Diagonals`, `Find_Position_in_2D_Array` | C++ |
+| Star & Shape Patterns | `Asterisk_Square`, `Square_Pattern`, `Concentric_Square_Pattern`, `Right_Angled_Triangle_Pattern`, `Inverted_Right_Angled_Triangle_Pattern`, `Right_Half_Triangle`, `Centered_Star_Triangle`, `Inverted_Centered_Star_Triangle`, `Double_Centered_Star_Triangle`, `Hourglass_Pattern`, `Butterfly_Pattern` | C++ |
+| Number & Letter Patterns | `Number_Triangle`, `Right_Angled_Number_Triangle`, `Ascending_Number_Triangle`, `Inverted_Number_Triangle`, `Ascending_Letter_Triangle`, `Ascending_Letter_Pyramid`, `Descending_Letter_Triangle`, `Uppercase_Letter_Pyramid` | C++ |
+| Python Patterns | `Butterfly_Pattern`, `Half_Butterfly`, `Inverted_Pyramid` | Python |
 
-| # | Problem | File | Language | Topic |
-| - | ------- | ---- | -------- | ----- |
-| 1 | _Add your first Week 2 problem here_ | `Week2/filename.cpp` | C++ | STL |
+#### 🧰 Cpp STL (25 programs)
+
+| Part | Programs | Topic |
+| ---- | -------- | ----- |
+| Core | `Vector_Operations_Challange`, `Sorting_an_Array`, `Pairs_Sum_and_Concatenation_Challange` | Vector, Pair, Sort |
+| Core | `Set_Operations`, `Queue_Frequency`, `Stack_Minimum_Element` | Set, Queue, Stack |
+| Core | `Order_Management`, `Deque_Order_Management`, `Priority_Queue_Patient_Management` | Map, Deque, Priority Queue |
+| Part 2 | `Stack`, `Queue`, `Deque`, `List` | Linear containers |
+| Part 2 | `Set`, `Multiset`, `Unordered_Set` | Set family |
+| Part 2 | `Priority_Queue_Max_Heap`, `Priority_Queue_Min_Heap` | Heaps |
+| Part 3 | `WordCount`, `CanFormPalindrome`, `LongestPalindromeLength` | Strings & hashing with STL |
+| Part 3 | `SortProducts`, `CustomSortingAndPopcount` | Custom comparators, popcount |
+| Part 3 | `ThreeSumEndingWithThree`, `STL_Part_3` | Problem solving |
 
 ### 📊 Overall Stats
 
 | Metric | Count |
 | ------ | ----- |
 | Weeks completed | 1 |
-| Weeks in progress | 1 |
-| C++ programs | 4 |
+| C++ programs | 62 |
 | Python programs | 3 |
-| Total programs | 7 |
+| Total programs | 65 |
 
 > Update these numbers as new weeks are added.
 
