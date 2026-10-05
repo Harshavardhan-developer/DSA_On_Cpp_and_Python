@@ -24,7 +24,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | Languages | C++, Python |
 | Organization | Week-wise folders (`Week1`, `Week2`, ...) |
 | Purpose | Learning, interview preparation, progress tracking |
-| Status | 🚧 In progress |
+| Status | 🚧 In progress — currently on Week 2 |
 
 ---
 
@@ -32,7 +32,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 
 | Language | Purpose | Used For |
 | -------- | ------- | -------- |
-| C++ | DSA implementation, STL practice | Basics, conditionals, switch case |
+| C++ | DSA implementation, STL practice | Basics, conditionals, switch case, STL |
 | Python | DSA implementation, problem solving | Patterns |
 
 ---
@@ -41,21 +41,22 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 
 | Stage | Topic | Status |
 | ----- | ----- | ------ |
-| 1 | Programming Fundamentals | ✅ Started |
-| 2 | Conditional Statements & Switch Case | ✅ Started |
-| 3 | Basic Patterns | ✅ Started |
-| 4 | Arrays & Strings | ⬜ Upcoming |
-| 5 | Searching & Sorting | ⬜ Upcoming |
-| 6 | Recursion | ⬜ Upcoming |
-| 7 | Hashing | ⬜ Upcoming |
-| 8 | Linked Lists | ⬜ Upcoming |
-| 9 | Stacks & Queues | ⬜ Upcoming |
-| 10 | Trees & BST | ⬜ Upcoming |
-| 11 | Graphs | ⬜ Upcoming |
-| 12 | Greedy & Dynamic Programming | ⬜ Upcoming |
-| 13 | Advanced Topics (Heaps, Trie, Bit Manipulation) | ⬜ Upcoming |
+| 1 | Programming Fundamentals | ✅ Done |
+| 2 | Conditional Statements & Switch Case | ✅ Done |
+| 3 | Basic Patterns | ✅ Done |
+| 4 | C++ STL | ✅ Done |
+| 5 | Arrays & Strings | ⬜ Upcoming |
+| 6 | Searching & Sorting | ⬜ Upcoming |
+| 7 | Recursion | ⬜ Upcoming |
+| 8 | Hashing | ⬜ Upcoming |
+| 9 | Linked Lists | ⬜ Upcoming |
+| 10 | Stacks & Queues | ⬜ Upcoming |
+| 11 | Trees & BST | ⬜ Upcoming |
+| 12 | Graphs | ⬜ Upcoming |
+| 13 | Greedy & Dynamic Programming | ⬜ Upcoming |
+| 14 | Advanced Topics (Heaps, Trie, Bit Manipulation) | ⬜ Upcoming |
 
-> Legend: ✅ Started · ⏳ In progress · ⬜ Upcoming
+> Legend: ✅ Done · ⏳ In progress · ⬜ Upcoming
 
 ---
 
@@ -69,7 +70,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | 2 | C++ Basics | 🧱 Foundations | ✅ |
 | 3 | Complexity Analysis | 🧱 Foundations | ✅ |
 | 4 | Patterns | 🎨 Practice | ✅ |
-| 5 | C++ STL | 🎨 Practice | ⬜ |
+| 5 | C++ STL | 🎨 Practice | ✅ |
 | 6 | Python Data Structures & Utilities | 🎨 Practice | ⬜ |
 | 7 | Math Basics | 🧱 Foundations | ⬜ |
 | 8 | Pseudo Code | 🧱 Foundations | ⬜ |
@@ -110,6 +111,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | Topic | Problem Types | Language Plan |
 | ----- | ------------- | ------------- |
 | 🧮 Basics & Patterns | Input/output, conditionals, loops, switch case, star and number patterns | C++ / Python |
+| 🧰 C++ STL | vector, pair, map, set, stack, queue, algorithms, iterators | C++ |
 | 📈 Complexity | Comparing brute force vs optimized solutions | C++ / Python |
 | 📊 Arrays | Traversal, reverse, rotate, prefix sum, subarray problems | C++ / Python |
 | 🔤 Strings | Palindromes, anagrams, character frequency, substrings | C++ / Python |
@@ -133,7 +135,7 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | Week | Focus | Status |
 | ---- | ----- | ------ |
 | Week 1 | Programming Basics, Conditionals, Patterns | ✅ Done |
-| Week 2 | Coming soon | ⏳ Upcoming |
+| Week 2 | C++ STL | ⏳ In progress |
 | Week 3 | Coming soon | ⬜ Upcoming |
 | Week 4 | Coming soon | ⬜ Upcoming |
 
@@ -149,11 +151,18 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 | 6 | Half Butterfly | `Half_Butterfly.py` | Python | Patterns |
 | 7 | Inverted Pyramid | `Inverted_Pyramid.py` | Python | Patterns |
 
+### ⏳ Week 2 — C++ STL *(in progress)*
+
+| # | Problem | File | Language | Topic |
+| - | ------- | ---- | -------- | ----- |
+| 1 | _Add your first Week 2 problem here_ | `Week2/filename.cpp` | C++ | STL |
+
 ### 📊 Overall Stats
 
 | Metric | Count |
 | ------ | ----- |
 | Weeks completed | 1 |
+| Weeks in progress | 1 |
 | C++ programs | 4 |
 | Python programs | 3 |
 | Total programs | 7 |
