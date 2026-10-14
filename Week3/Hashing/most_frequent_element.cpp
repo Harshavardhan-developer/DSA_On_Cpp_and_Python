@@ -1,8 +1,7 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class solution {
 public:
     int mostFrequentElement(int n, vector<int>& nums) {
         unordered_map<int, int> freq;
@@ -14,7 +13,8 @@ public:
         int most_frequent = nums[0];
 
         for (int num : nums) {
-            if (freq[num] > freq[most_frequent]) {
+            if (freq[num] > freq[most_frequent] ||
+                (freq[num] == freq[most_frequent] && num < most_frequent)) {
                 most_frequent = num;
             }
         }
@@ -23,9 +23,9 @@ public:
     }
 };
 
-int main() {
-    Solution sol;
 
+int main() {
+    solution sol;
     int n;
     cin >> n;
 
