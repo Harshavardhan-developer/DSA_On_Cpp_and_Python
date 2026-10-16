@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -24,11 +23,14 @@ int main() {
     return 0;
 }
 
-// ---------Inputs--------
-// 7
-// 1 2 2 3 1 2 4
+/*
+Input:
+7
+1 2 2 3 1 2 4
 
-// 4 appears 1 times
-// 3 appears 1 times
-// 2 appears 3 times
-// 1 appears 2 times
+Possible Output:
+4 appears 1 times
+3 appears 1 times
+2 appears 3 times
+1 appears 2 times
+*/
