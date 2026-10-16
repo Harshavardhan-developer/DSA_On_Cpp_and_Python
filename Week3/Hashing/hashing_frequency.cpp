@@ -1,6 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
+
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -8,7 +7,7 @@ int main() {
     cin >> n;
 
     vector<int> arr(n);
-    unordered_map<int, int> freq;
+    map<int, int> freq;
 
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
@@ -28,9 +27,9 @@ Input:
 7
 1 2 2 3 1 2 4
 
-Possible Output:
-4 appears 1 times
-3 appears 1 times
-2 appears 3 times
+Output:
 1 appears 2 times
+2 appears 3 times
+3 appears 1 times
+4 appears 1 times
 */
