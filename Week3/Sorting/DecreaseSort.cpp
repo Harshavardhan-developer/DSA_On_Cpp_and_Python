@@ -1,10 +1,9 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class solution {
 public:
-    void selectionSort(vector<int>& arr, int n) {
+    void selectionSort(int arr[], int n) {
         for (int i = 0; i < n - 1; i++) {
             int max_index = i;
 
@@ -20,6 +19,6 @@ public:
 };
 
 /*
-Input:  arr = {5, 3, 8, 2, 1}, n = 5
+Input:  arr[] = {5, 3, 8, 2, 1}, n = 5
 Output: 8 5 3 2 1
 */
