@@ -233,7 +233,7 @@ This is my future learning plan, not a list of completed work. See [Weekly Plan 
 | ----- | -------- | -------- |
 | String problems | `IsomorphicStrings`, `LargestOddNumber`, `LongestCommonPrefix`, `ReverseWords`, `SortCharactersByFrequency`, `ValidAnagram` | C++ |
 
-### ⏳ Week 3 — Hashing & Sorting (in progress)
+### ✅ Week 3 — Hashing & Sorting (in progress)
 
 | Folder | Programs | Language |
 | ------ | -------- | -------- |
@@ -337,6 +337,7 @@ Future solutions will include time and space complexity where possible.
 ---
 
 <div align="center">
+<div></div>
 
 ### 👨‍💻 Author
 
@@ -346,5 +347,4 @@ Future solutions will include time and space complexity where possible.
 | **GitHub** | [Harshavardhan-developer](https://github.com/Harshavardhan-developer) |
 
 ✨ *Documenting my ongoing DSA journey through consistent practice in C++ and Python.*
-
-</div>
+</div> 
